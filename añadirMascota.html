@@ -45,7 +45,6 @@
               <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">USUARIO <span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="download">
                 <li><a href="registro.html">Registrarse</a></li>
-                <li><a href="miperfil.html">MiPerfil</a></li>
                 <li class="divider"></li>      
                 <li><a href="">Quienes somos</a></li>
               </ul>
@@ -60,61 +59,143 @@
     <br>
     <br>
     <br>
-    
-    
-    
-    
-             <!-- Top content -->
-        <div class="top-content">
-        	
-            <div class="inner-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8 col-sm-offset-2 text">
-                            <h1 align="center">Añadir Mascota</h1>
-                            <div class="description">
-                            	<p align="center">
-	                            	Si tienes alguna duda, o quieres consultarnos algo, ¡te lo ponemos fácil! Ponemos a tu alcance un servicio de atención al cliente rápido y eficiente para que nos preguntes todo lo que te interese saber.
-                            	</p>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-                    <div class="row">
-                        <div class="col-sm-6 col-sm-offset-3 form-box">
-                        	<div class="form-top">
-                        		<div class="form-top-left">
-                        			<h3>Contacta con nosotros</h3>
-                            		<p>Rellena el formulario para enviarnos vuestra consulta:</p>
-                        		</div>
-                        		<div class="form-top-right">
-                        			<i class="fa fa-envelope"></i>
-                        		</div>
-                            </div>
-                            <div class="form-bottom contact-form">
-			                    <form role="form" action="assets/contact.php" method="post">
-			                    	<div class="form-group">
-			                    		<label class="sr-only" for="contact-email">Email</label>
-			                        	<input type="text" name="email" placeholder="Email..." class="contact-email form-control" id="contact-email">
-			                        </div>
-			                        <div class="form-group">
-			                        	<label class="sr-only" for="contact-subject">Subject</label>
-			                        	<input type="text" name="subject" placeholder="Tema..." class="contact-subject form-control" id="contact-subject">
-			                        </div>
-			                        <div class="form-group">
-			                        	<label class="sr-only" for="contact-message">Message</label>
-			                        	<textarea name="message" placeholder="Mensaje..." class="contact-message form-control" id="contact-message"></textarea>
-			                        </div>
-			                        <button type="submit" class="btn">Enviar mensaje</button>
-			                    </form>
-		                    </div>
-                        </div>
+   
+<div class="container">
+        <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 text-justify">
+
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="page-header">
+                        <h1 id="forms"> Añadir mascota 
+                              <small>
+                                  <br>
+                                  Añade los datos relacionados con tu mascota</small>
+                          </h1>
                     </div>
                 </div>
             </div>
-            
         </div>
+        <!-- final cabecera -->
+</div>
+<!-- fin container header -->
+
+    <br>
+    
+    
+    
+<!-- contenido añadir Mascota -->
+<div class="container">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-justify">
+    
+         <div class="row">
+                        <div class="col-lg-12">
+                            <div class="panel panel-default bootstrap-admin-no-table-panel">
+                                <div class="panel-heading">
+                                    <div class="text-muted bootstrap-admin-box-title">Datos Mascota</div>
+                                </div>
+                                <div class="bootstrap-admin-no-table-panel-content bootstrap-admin-panel-content collapse in">
+                                    <form class="form-horizontal">
+                                        <fieldset>
+                                            <legend> </legend>
+                                            <br>
+                       <div class="col-lg-11">                      
+                                            <div class="form-group">
+                                                <label class="col-lg-2 control-label" for="typeahead">Nombre</label>
+                                                <div class="col-lg-10">
+                                                    <input type="text" class="form-control col-md-6" id="typeahead" autocomplete="off" >
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-lg-2 control-label"for="typeahead">Especie</label>
+                                                <div class="col-lg-10">
+                                                    <input type="text" class="form-control col-md-6" id="typeahead" autocomplete="off" >
+                                                    
+                                                </div>
+                                            </div>
+                           
+                                            <div class="form-group">
+                                                <label class="col-lg-2 control-label" for="typeahead">Tamaño</label>
+                                                <div class="col-lg-10">
+                                                    <input type="text" class="form-control col-md-6" id="typeahead" autocomplete="off" >
+                                                    
+                                                </div>
+                                            </div> 
+
+                           
+                                        <div class="form-group">
+                                                <label class="col-lg-2 control-label" for="typeahead">Raza</label>
+                                                <div class="col-lg-10">
+                                                    <input type="text" class="form-control col-md-6" id="typeahead" autocomplete="off" >
+                                                    
+                                                </div>
+                                        </div>
+                           
+                                     <div class="form-group">
+                                                <label class="col-lg-2 control-label" for="typeahead">Edad</label>
+                                                <div class="col-lg-10">
+                                                    <input type="text" class="form-control col-md-6" id="typeahead" autocomplete="off" >
+                                                    
+                                                </div>
+                                            </div>
+                           
+                                    <div class="form-group">
+                                                <label class="col-lg-2 control-label" for="typeahead">Sexo</label>
+                                                <div class="col-lg-10">
+                                                    <input type="text" class="form-control col-md-6" id="typeahead" autocomplete="off" >
+                                                    
+                                                </div>
+                                    </div>
+                           
+                           
+                                            <div class="form-group">
+                                                <label class="col-lg-2 control-label" for="date01">Fecha</label>
+                                                <div class="col-lg-10">
+                                                    <input type="text" class="form-control datepicker" id="date01" value="DD/MM/AAAA">
+                                             
+                                                </div>
+                                            </div>
+
+
+                                            <div class="form-group">
+                                                <label class="col-lg-2 control-label" for="fileInput">Imagen</label>
+                                                <div class="col-lg-10">
+                                                    <input class="form-control uniform_on" id="fileInput" type="file">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-lg-2 control-label" for="textarea-wysihtml5">Descripción mascota</label>
+                                                <div class="col-lg-10">
+                                                    <textarea id="textarea-wysihtml5" class="form-control textarea-wysihtml5" placeholder="Introduce una descripción..." style="width: 100%; height: 200px"></textarea>
+                                                </div>
+                                            </div>
+                                            <br>
+                                   <label class="col-lg-8" > 
+                                       <a href="usuario.html">
+                                       <button type="button" class="btn btn-primary">Volver</button>
+                                       </a>       
+                                   </label>
+                                   <label class="col-lg-4" align="right">
+                                            <button type="submit" class="btn btn-primary">Guardar</button>
+                                    
+                                           <button type="reset" class="btn btn-default">Cancelar</button>
+                                        </fieldset>
+                                        <br>
+                                 </label> 
+                                            
+                                    </form>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+    
+    </div>
+</div>
+    
+
     
 </body>
     
