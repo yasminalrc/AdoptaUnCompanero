@@ -9,6 +9,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link type="text/css" rel="stylesheet" href="bootstraptheme.css"/>
+    <link rel="stylesheet" href="bootstrap-select.css">
+    <script src="bootstrap-select.js"></script>
+    
 </head>
 
 <body>
@@ -107,7 +110,14 @@
                                             <div class="form-group">
                                                 <label class="col-lg-2 control-label"for="typeahead">Especie</label>
                                                 <div class="col-lg-10">
-                                                    <input type="text" class="form-control col-md-6" id="typeahead" autocomplete="off" >
+                                                   <!-- <input type="text" class="form-control col-md-6" id="typeahead" autocomplete="off" placeholder="Perro/gato/conejo/otras especies..."> -->
+                                                                                                         
+      <select id="lunchBegins" class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Elige una opción...">
+        <option>Perro</option>
+        <option>Gato</option>
+        <option>Hamster</option>
+        <option>Otras</option>  
+      </select>
                                                     
                                                 </div>
                                             </div>
@@ -115,7 +125,15 @@
                                             <div class="form-group">
                                                 <label class="col-lg-2 control-label" for="typeahead">Tamaño</label>
                                                 <div class="col-lg-10">
-                                                    <input type="text" class="form-control col-md-6" id="typeahead" autocomplete="off" >
+                                                   <!-- <input type="text" class="form-control col-md-6" id="typeahead" autocomplete="off" placeholder="Grande/mediano/pequeño">-->
+                                                    
+                                                        
+      <select id="lunchBegins" class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Elige una opción...">
+        <option>Grande</option>
+        <option>Mediano</option>
+        <option>Pequeño</option>
+      </select>
+    
                                                     
                                                 </div>
                                             </div> 
@@ -124,7 +142,25 @@
                                         <div class="form-group">
                                                 <label class="col-lg-2 control-label" for="typeahead">Raza</label>
                                                 <div class="col-lg-10">
-                                                    <input type="text" class="form-control col-md-6" id="typeahead" autocomplete="off" >
+                                                   <!-- <input type="text" class="form-control col-md-6" id="typeahead" autocomplete="off" > -->
+                                                      <select id="first-disabled" class="selectpicker" data-hide-disabled="true" data-live-search="true">
+    <optgroup disabled="disabled" label="Otras">
+      <option>Hidden</option>
+    </optgroup>
+    <optgroup label="Perros">
+      <option>Pastor alemán</option>
+      <option>Yorkshire Terrier</option>
+      <option>Boxer</option>    
+      <option>Bulldog</option>
+    </optgroup>
+    <optgroup label="Gatos">
+      <option>Bengala</option>     
+      <option>Gato siamés</option>
+      <option>Gato persa</option>   
+    </optgroup>
+    <optgroup label="Otros">       
+    </optgroup>                                                     
+  </select>
                                                     
                                                 </div>
                                         </div>
@@ -132,7 +168,22 @@
                                      <div class="form-group">
                                                 <label class="col-lg-2 control-label" for="typeahead">Edad</label>
                                                 <div class="col-lg-10">
-                                                    <input type="text" class="form-control col-md-6" id="typeahead" autocomplete="off" >
+                                                   <!-- <input type="text" class="form-control col-md-6" id="typeahead" autocomplete="off" > -->
+                                                <select id="lunchBegins" class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Elige una opción...">
+        <option>Cualquiera</option>
+        <option>Menos de 1 mes</option>
+        <option>Entre 2 y 3 meses</option>
+        <option>Entre 4 y 6 meses</option>
+        <option>Entre 7 y 12 meses</option>
+        <option>Entre 1 y 2 años</option>
+        <option>Entre 3 y 5 años</option>
+        <option>Entre 6 y 9 años</option>
+        <option>Entre 10 y 14 años</option>
+        <option>Más de 15 años</option>                                           
+                                                    
+      </select>          
+                                                    
+                                                    
                                                     
                                                 </div>
                                             </div>
@@ -140,7 +191,12 @@
                                     <div class="form-group">
                                                 <label class="col-lg-2 control-label" for="typeahead">Sexo</label>
                                                 <div class="col-lg-10">
-                                                    <input type="text" class="form-control col-md-6" id="typeahead" autocomplete="off" >
+                                                    <!--<input type="text" class="form-control col-md-6" id="typeahead" autocomplete="off" placeholder="Macho/Hembra"> -->
+                                                    
+                                                                                                    <select id="lunchBegins" class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Elige una opción...">
+        <option>Cualquiera</option>
+        <option>Macho</option>
+        <option>Hembra</option>                                                                           </select>    
                                                     
                                                 </div>
                                     </div>
