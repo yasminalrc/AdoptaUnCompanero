@@ -8,3 +8,10 @@ DESCRIPCIÓN ENTIDADES:
 * ANIMAL: entidad de visibilidad pública que permite a cualquier usuario ver las mascotas disponibles, y a los usuarios registrados
 * FORO: entidad pública que permite visualizar los comentarios de los diferentes usuarios, además de añadir nuevas entradas cuando el usuario lo desee en el foro.
 * COMENTARIOS: entidad pública que permite introducir comentarios para cada animal.
+
+INFORMACIÓN NECESARIA PARA VISUALIZAR LA PÁGINA:
+* Disponer de un navegador web compatible con javascript, bootstrap, jquery.
+
+INFORMACIÓN NECESARIA PARA VISUALIZAR EL CÓDIGO:
+* Un editor de textos, de estilos, de programación. Ejemplo: Brackets
+* Navegador web
