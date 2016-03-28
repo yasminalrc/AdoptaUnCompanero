@@ -6,9 +6,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="fileinput.css" media="all" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/fileinput.min.js" type="text/javascript"></script>
     <link type="text/css" rel="stylesheet" href="bootstraptheme.css" />
+    
 </head>
 
 <body>
@@ -98,7 +101,12 @@
                         <br>
                         <h4> Luis Hernández</h4>
                         <hr />
-                            <a href="a%C3%B1adirMascota.html" class="btn btn-primary"> <i class="fa fa-user-plus"></i> &nbsp;Añadir Mascota</a>
+                        <ul class="list-unstyled">
+                           <li><a href="a%C3%B1adirMascota.html" class="btn btn-primary"> <i class="fa fa-user-plus"></i> &nbsp;Añadir Mascota</a></li>
+                            <br>
+                            <li><a href="mismascotas.html" class="btn btn-primary"> <i class="fa fa-user-plus"></i> &nbsp;Mis Mascotas</a></li>
+                        
+                        </ul>    
                         
                     </div>
                 </div>
@@ -116,16 +124,16 @@
                 <hr />
 
                 <!-- ver imagénes enlazadas de tus mascotas -->
-                <h3> Mis mascotas </h3>
+    <!--            <h3> Mis mascotas </h3>
                 <br>
                 
                         <!-- Projects Row -->
-                <div class="row">
+     <!--           <div class="row">
                     <div class="col-md-4 portfolio-item">
                         <a href="#">
-                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                            <p align="center"><img class="img-responsive" src="http://placehold.it/700x400"                                         alt="Imagen responsive"></p>
                         </a>
-                        <h3>
+                        <h3 align="center">
                             <a href="#">Mascota 1</a>
                         </h3>
                     </div>
@@ -133,7 +141,7 @@
                         <a href="#">
                             <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                         </a>
-                        <h3>
+                        <h3 align="center">
                             <a href="#">Mascota 2</a>
                         </h3>
                     </div>
@@ -141,14 +149,14 @@
                         <a href="#">
                             <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                         </a>
-                        <h3>
+                        <h3 align="center">
                             <a href="#">Mascota 3</a>
                         </h3>
                     </div>
                 </div>
-                <!-- /.row -->
-                <br>
-     <!-- Pagination -->
+                <!-- /.row 
+                <br>  -->
+     <!-- Pagination 
                     <div class="row text-center">
                         <div class="col-lg-12">
                             <ul class="pagination">
@@ -169,15 +177,49 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div>    -->
         <!-- /.row -->
                 
                 <!-- fin ver mascotas -->
-                <hr />
+             <!--   <hr /> -->
             <!-- Editar opciones del perfil -->    
                 <h3> Editar Perfil </h3>
                 <br>
                 <!-- <div class="description"> -->
+                
+                                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="text-muted bootstrap-admin-box-title">Cambia tu foto de perfil</div>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form enctype="multipart/form-data" class="form-horizontal">
+
+                                <div class="col-lg-11">
+                                    <div class="form-group">
+                                        <label class="col-lg-3 control-label" for="textarea-wysihtml5">Vista preliminar</label>
+                                        <div class="col-lg-9">
+                                           <!-- <textarea id="textarea-wysihtml5" class="form-control col-md-7" placeholder="Introduce una descripción..." rows="5"></textarea> -->
+                                            <input id="file-1" type="file" class="file" multiple=true data-preview-file-type="any">
+                                            <p class="help-block">Procura que tus imágenes no superen un tamaño de 250x250 </p>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <label class="col-lg-6">
+                                        <a href="#" class="btn btn-primary">Guardar</a>
+                                    </label>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <div class="text-muted bootstrap-admin-box-title">Cambia tu contraseña</div>
@@ -259,10 +301,7 @@
                     </div>
                     <br>
                 </div>
-
-
                 <!-- </div>   <!-- fin div description -->
-
 
             </div>
         </div>
