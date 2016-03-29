@@ -18,7 +18,7 @@ INFORMACIÓN NECESARIA PARA VISUALIZAR EL CÓDIGO:
 
 DIAGRAMA DE NAVEGACIÓN:
 
-![Alt text](capturas/Diagrama.png "imagen diagrama")
+![Alt text](capturas/diagramaN.png "imagen diagrama")
 
 El resto de relaciones son n a n. 
 Desde todas las páginas se puede acceder al resto, exceptuando la página añadir Mascota, a la que solo podemos acceder desde Mi Perfil, si estamos registrados.
