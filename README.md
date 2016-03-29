@@ -23,281 +23,85 @@ DIAGRAMA DE NAVEGACIÓN:
 El resto de relaciones son n a n. 
 Desde todas las páginas se puede acceder al resto, exceptuando la página añadir Mascota, a la que solo podemos acceder desde Mi Perfil, si estamos registrados.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<->
 Comenzamos en index.html:
 
-
- 
-
-
+![Alt text](capturas/imagen1.png "imagen index.html")
 
 Desde aquí podemos registrarnos para acceder con nuestro usuario, o acceder a la página de registro en caso de no tener aún un usuario.
 También podemos enlazar con la página de Adopta.
 
-
-
-
-
-
-
-
-
-
-
-
+<->
 
 Si estamos registrados y nos logueamos con nuestro usuario, entonces la página principal se muestra de la siguiente forma:
 
- 
-
-
-
+![Alt text](capturas/imagen2.png "imagen inicio.html")
 
 Desde aquí podemos acceder a la página de mis mascotas.
 
-
-
-
-
-
-
-
-
-
-
-
-
+<->
 
 La pagina de Noticias se muestra así:
 
- 
+![Alt text](capturas/imagen3.png "imagen noticias") 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<->
 
 Adopta:
 
- 
-
+![Alt text](capturas/imagen4.png "imagen adopta")
 
 Desde adopta podemos ir a ver cada mascota en particular, esa pantalla la mostraremos después, ya que podemos acceder a ella desde aquí y desde la visualización de las mascotas a la que llegamos desde el perfil de usuario.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<->
 
 Foro:
 
- 
+![Alt text](capturas/imagen5.png "imagen foro") 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<->
 
 Contacta con nosotros:
 
-
+![Alt text](capturas/imagen6.png "imagen contacta")
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<->
 
 Registro:
 
- 
+![Alt text](capturas/imagen7.png "imagen registro") 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<->
 
 Mi perfil:
 
- 
+![Alt text](capturas/imagen8.png "imagen mi Perfil") 
 
 
 Desde esta página podemos editar nuestro perfil, además de añadir una nueva mascota para su adopción, y ver todas las mascotas que hemos subido nosotros, en la pantalla Mis Mascotas.
 Desde Mis Mascotas también podremos acceder directamente con la página de información de la mascota.
 
-
+<->
 
 Añadir Mascota:
 
- 
+![Alt text](capturas/imagen9.png "imagen añadir Mascota") 
 
 Desde aquí podemos añadir una nueva mascota, y/o volver a la página de nuestro perfil.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<->
 
 Mis Mascotas:
 
- 
+![Alt text](capturas/imagen10.png "imagen mis mascotas") 
 
 Desde aquí también podemos enlazar con la página personalizada de cada mascota (mascota.html)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<->
 
 Mascota:
 
- 
+![Alt text](capturas/imagen11.png "imagen mascota") 
 
 
 
