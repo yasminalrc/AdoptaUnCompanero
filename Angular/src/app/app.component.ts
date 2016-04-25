@@ -1,5 +1,5 @@
 import {Component} from 'angular2/core';
-import {mascota} from '.app/mascota';
+import {mascota} from './mascota';
 import {HeroDetailComponent} from './hero-detail.component';
 
 @Component({
