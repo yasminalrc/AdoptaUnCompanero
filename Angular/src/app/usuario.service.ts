@@ -4,12 +4,12 @@ import {withObserver} from './utils';
 
 export class Usuario{
     constructor(
-    
+
       private nombre: string,
       private contraseña: string,
-      
 
-    
+
+
       getNombre(){
         return this.nombre;
       }
@@ -18,7 +18,7 @@ export class Usuario{
         this.nombre = nom;
       }
 
-    
+
 
       getContraseña(){
         return this.contraseña;
@@ -28,7 +28,7 @@ export class Usuario{
         this.contraseña = contraseña;
       }
 
-    
+
 
 }
 
@@ -37,7 +37,7 @@ export class UsuarioService{
 
     private usuarios = [
       new Usuario('User','1234'),
-     new Usuario('User2','1234')
+      new Usuario('User2','1234')
      ]
 
     getInfo(nombre: string){
